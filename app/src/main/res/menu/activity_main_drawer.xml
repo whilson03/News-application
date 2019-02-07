@@ -7,14 +7,16 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/Home" />
+
+        <item
+            android:id="@+id/nav_local"
+            android:icon="@drawable/ic_flight_takeoff_black_24dp"
+            android:title="Foreign News" />
         <item
             android:id="@+id/nav_bookmarks"
             android:icon="@drawable/ic_bookmark_black_24dp"
             android:title="@string/Bookmarks" />
-        <item
-            android:id="@+id/nav_settings"
-            android:icon="@drawable/ic_settings_black_24dp"
-            android:title="@string/settings" />
+
     </group>
 
 

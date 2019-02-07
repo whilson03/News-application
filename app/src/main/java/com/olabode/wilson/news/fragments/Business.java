@@ -117,6 +117,7 @@ public class Business extends Fragment implements LoaderManager.LoaderCallbacks<
             }
         });
 
+
         ConnectivityManager connMgr = (ConnectivityManager) getContext().getSystemService(Context.CONNECTIVITY_SERVICE);
 
         // Get details on the currently active default data network

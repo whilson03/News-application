@@ -15,7 +15,6 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.olabode.wilson.news.R;
-import com.olabode.wilson.news.SettingsActivity;
 import com.olabode.wilson.news.adapter.CategoryAdapter;
 
 
@@ -89,7 +88,6 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.menu_refresh) {
             return true;
         } else if (id == R.id.menu_settings) {
-            Toast.makeText(this, "i was clicked settings", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(this, SettingsActivity.class);
             startActivity(intent);
         }
@@ -111,10 +109,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_bookmarks) {
 
 
-        } else if (id == R.id.nav_settings) {
-//            Toast.makeText(this,"i was clicked settings",Toast.LENGTH_SHORT).show();
-//            Intent intent = new Intent(this,SettingsActivity.class);
-//            startActivity(intent);
+        } else if (id == R.id.nav_local) {
+
 
         } else if (id == R.id.nav_share) {
 
